@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap");
+html {
+	font-size: 62.5%;
+}
+
+*,
+*::after,
+*::before {
+	padding: 0;
+	margin: 0;
+	border: none;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #fefefe;
+	font-family: "Roboto", sans-serif;
+}
+
+.container {
+	padding-top: 14rem;
+	width: 100%;
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.btn {
+	border-radius: 1rem;
+	padding: 1.2rem 1.8rem;
+	cursor: pointer;
+	font-size: 1.6rem;
+	transition: all 1s ease;
+	text-transform: capitalize;
+	font-weight: 600;
+	color: snow;
+}
+
+.insert {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	font-size: 1.8rem;
+	padding: 2rem;
+	border-radius: 1rem;
+	text-transform: capitalize;
+	box-shadow: rgba(0, 0, 0, 0.35) 0 0.5rem 1.5rem;
+}
+
+.insert input {
+	background-color: #eaeaea;
+	border-radius: 1rem;
+	padding: 1rem;
+	width: 30rem;
+	margin: 0.2rem 0;
+}
+
+.insert input:last-child {
+	margin-top: 2rem;
+	width: 8rem;
+	align-self: center;
+	background-color: orangered;
+	margin: 2 auto;
+	cursor: pointer;
+}
+
+.list {
+	border-radius: 1rem;
+	padding: 1rem;
+	background-color: #e4e4e4;
+	border-spacing: 0rem;
+	text-transform: capitalize;
+}
+
+.list caption {
+	font-size: 3rem;
+	font-weight: 900;
+	padding: 1rem;
+}
+
+.list th {
+	background-color: #bdc2c8;
+	font-size: 1.8rem;
+	margin: 1rem;
+	padding: 1rem;
+}
+
+.list th:first-child {
+	border-radius: 1rem 0 0 1rem;
+}
+
+.list th:last-child {
+	border-radius: 0 1rem 1rem 0;
+}
+
+.list td {
+	font-size: 1.8rem;
+	padding: 1.4rem 2.8rem;
+}
+.list td .delete {
+	background-color: orangered;
+}
+.list td .edit {
+	background-color: #2981bb;
+}
